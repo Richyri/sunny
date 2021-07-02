@@ -1,0 +1,17 @@
+.gallery {
+    &__box {
+        display: flex;
+        img {
+            width: 50vw;
+        }
+    }
+}
+
+@media (min-width:680px) {
+    .gallery {
+        display: flex;
+        img {
+            width: calc(100vw / 4);
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.testomonials {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    text-align: center;
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        color: $color--dark--gray--blue;
+        font-weight: 900;
+        letter-spacing: 0.5rem;
+    }
+
+    .testomonial {
+        padding: 4rem 0rem;
+        max-width: 350px;
+
+        img {
+            width: 75px;
+            border-radius: 50%;
+        }
+        
+        p {
+            padding: 2rem 0rem;
+            font-family: $font--barlow;
+            color: $color--dark--gray--blue;
+            line-height: 2.5rem;
+        }
+
+        h4 {
+            padding-bottom: 2rem;
+            color: $color--desaturated--blue;
+        }
+        
+        h5 {
+            color: $color--desaturated--blue;
+            font-family: $font--barlow;
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+
+    .testomonials__wrapper {
+        display: flex;
+        .testomonial:nth-of-type(2)
+        {
+            padding: 4rem 2rem;
+        }
+    }
+}

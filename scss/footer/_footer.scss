@@ -1,0 +1,27 @@
+footer {
+    min-height: 40vh;
+    background: $color---primary--moderate--cyan;
+    color: $color--primary--desa--cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: $font--barlow;
+    .footer__text {
+        display: flex;
+        padding: 2rem 0rem;
+        h4 {
+            cursor: pointer;
+        }
+        h4:nth-of-type(2) {
+            padding: 0rem 2rem;
+        }
+    }
+
+    .footer__images {
+        padding-top: 4rem;
+        img {
+            padding-right: 2rem;
+        }
+    }
+}
